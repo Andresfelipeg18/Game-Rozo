@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@11/dist/sweetalert2.min.css">
+    <title>mono</title>
+  </head>
+  <body>
+    <header>
+      <div>
+        <h1 class="TITLE">Rock , Paper , Scissors</h1>
+      </div>
+    </header>
+    <main>
+      <section class="container-1">
+        <div class="reload">
+          <button class="button" id="reload">
+            <div class="display">
+                <div id="msg">Reload</div>
+            </div>
+        </button>
+        </div>
+      </section>
+
+      <section class="container-wrapper">
+        <h1 id="result">Game Result</h1>
+        <section class="container-2">
+          <div class="col-left">
+            <h2>USUARIO</h2>
+            <span id="user-counter">0</span>
+            <button class="rock" id="btn-rock">
+              <img src="imagenes/piedra.png" alt="rock" />
+            </button>
+            <button class="paper" id="btn-paper">
+              <img src="imagenes/papel.png" alt="paper" />
+            </button>
+            <button class="scissors" id="btn-Scissor" >
+              <img src="imagenes/tijera.png" alt="sccissors" />
+            </button>
+            <h2 id="tittle-User">TU</h2>
+            <img class="players" src="imagenes/papel.png" alt="user-choice" id="user-choice-img" />
+          </div>
+        </section>
+        <section class="container-3">
+          <div class="col-rigth">
+            <h2>Maquina</h2>
+            <span id="cpu-counter">0</span>
+            <button class="rock">
+              <img src="imagenes/papel.png" alt="rock" />
+            </button>
+            <button class="paper">
+              <img src="imagenes/piedra.png" alt="paper" />
+            </button>
+            <button class="scissors">
+              <img src="imagenes/tijera.png" alt="sccissors" />
+            </button>
+            <h2 id="tittle-Cpu">Maquina</h2>
+            <img class="players" src="imagenes/tijera.png" alt="cpu-choice" id="cpu-choice-img" />
+          </div>
+        </section>
+      </section>
+    </main>
+    <script src="./app.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+  </body>
+</html>
+
+
+
